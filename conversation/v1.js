@@ -209,7 +209,7 @@ ConversationV1.prototype.message = function(params, callback) {
 
   const parameters = {
     options: {
-      url: 'http://pzupoc2.eu-gb.mybluemix.net/botchat',
+      url: 'http://pzupoc2.eu-gb.mybluemix.net/bankingchat',
       method: 'POST',
       json: true,
       body: pick(params, ['input', 'context', 'alternate_intents', 'output', 'entities', 'intents']),
